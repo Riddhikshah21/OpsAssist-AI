@@ -1,0 +1,27 @@
+[project]
+name = "opsassist-ai"
+version = "0.1.0"
+description = "A lightweight RAG-based engineering support assistant that answers troubleshooting questions from technical documentation with citations."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "streamlit",
+    "python-dotenv",
+    "pydantic",
+    "pydantic-settings",
+    "langchain",
+    "langchain-community",
+    "langchain-qdrant",
+    "langchain-ollama",
+    "qdrant-client",
+    "sentence-transformers",
+    "requests",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
