@@ -18,10 +18,12 @@ dependencies = [
     "qdrant-client",
     "sentence-transformers",
     "requests",
+    "langgraph>=1.2.4",
 ]
 
 [dependency-groups]
 dev = [
+    "mypy>=2.1.0",
     "pytest",
     "ruff",
 ]
