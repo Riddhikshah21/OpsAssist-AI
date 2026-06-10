@@ -63,6 +63,19 @@ opsassist-ai/
 └── README.md
 ```
 
+## Common Commands
+
+| Command | Description |
+|---|---|
+| `make install` | Install dependencies |
+| `make dev` | Start Qdrant |
+| `make ingest` | Ingest documentation into Qdrant |
+| `make backend` | Start FastAPI backend |
+| `make frontend` | Start Streamlit UI |
+| `make eval` | Run retrieval evaluation |
+| `make test` | Run tests |
+| `make stop` | Stop Docker services |
+
 ## Setup
 
 ### 1. Install dependencies
